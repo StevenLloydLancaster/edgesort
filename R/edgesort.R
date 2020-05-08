@@ -6,6 +6,7 @@
 #' @examples
 #' network <- estimateNetwork(data,default="EPICglasso")
 #' edgesort(network)
+#' @export
 
 
 edgesort <- function(networkname){
