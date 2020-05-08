@@ -1,0 +1,14 @@
+Package: edgesort
+Title: Creates Descending List of Edgeweights from Bootnet
+Version: 1.0
+Authors@R: 
+    person(given = "Steven",
+           family = "Lancaster",
+           role = c("aut", "cre"),
+           email = "stevenlloydlancater@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Uses the output of the 'estimateNetwork' function from bootnet to create a descending list of edgeweights.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0.9000
