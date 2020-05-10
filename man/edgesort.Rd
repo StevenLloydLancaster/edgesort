@@ -7,7 +7,7 @@
 edgesort(networkname)
 }
 \arguments{
-\item{Name}{of a network created using bootnet}
+\item{networkname}{name of a network created using bootnet}
 }
 \value{
 A desecending list of edgeweights
@@ -16,6 +16,10 @@ A desecending list of edgeweights
 This function uses the output from the 'estimateNetowrk' package of boonet to create sorted list (descending) of edge weights.
 }
 \examples{
-network <- estimateNetwork(data,default="EPICglasso")
+library(psychTools)
+library(bootnet)
+data(bfi)
+network <- estimateNetwork(bfi, default="EBICglasso", threshold = TRUE)
 edgesort(network)
+
 }
